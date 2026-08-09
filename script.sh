@@ -1,1 +1,1 @@
-parallel --bar 'opusenc --bitrate 256 --vbr --music --comp 10 {} {.}.opus' ::: *.flac
+parallel --bar 'opusenc --bitrate 192 --vbr --music --comp 10 {} {.}.opus' ::: *.flac
